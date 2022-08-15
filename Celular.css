@@ -1,0 +1,144 @@
+html{ 
+    background-color: #684F6A;
+}
+.cabeca{
+    display: flex;
+    justify-content: center;
+}
+.procura{
+    margin-left: 95px;
+    background-color: #7C1F94;
+    width:90%;
+    height: 70px;
+    border-radius: 2cm;
+}
+.procurar{
+    background-color: #FFFF;
+    Width:20%;
+    Height: 40px;
+    border-radius: 1cm;
+    margin-top: -6vh;
+    margin-left: 135vh;
+}
+.ache{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin-top: -5vh;
+    margin-left: 27vh;
+}
+.triangulo{
+   margin-top: -3.4vh;
+   margin-left: 44vh;
+}
+.cel{
+    margin-top: 20vh;
+    margin-left: 20vh;
+}
+.conheca{
+    margin-left: 120vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-top: -30vh;
+}
+.cliq{
+    margin-left: 131vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 8vh;
+}
+.cubo{
+    background-color: #7C1F94;
+    width: 150px;
+    height: 40px;
+    margin-left: 129.2vh;
+    margin-top: -5.5vh;
+}
+.listra{
+    background-color: #775E8F;
+    width: 100%;
+    height: 600px;
+    margin-top: 30vh;
+}
+.celulares{
+    margin-top: -50vh;
+    margin-left: 20vh;
+}
+.veja{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFF;
+    font-size: 16px;
+    margin-left: 118.5vh;
+    margin-top: -30vh;
+}
+.clique{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFF;
+    font-size: 16px;
+    margin-left: 129.6vh;
+    margin-top: 8vh;
+    font-size: 20px;
+}
+.quad{
+    background-color: #B478BE;
+    width: 150px;
+    height: 40px;
+    margin-left: 128.6vh;
+    margin-top: -5.4vh;
+}
+.tristeza{
+    margin-top: 25vh;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    'sobre onde'
+    'hist map'
+    'local map'
+    'contatos contatos';
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.tristeza div{
+    background-color: #7C1F94;
+    padding: 20px;
+    color: #FFFF;
+
+}
+.sobre{
+    grid-area: "sobre";
+    height: 30%;
+}
+.onde{
+    grid-area: "onde";
+    height: 30%;
+}
+.hist{
+    grid-area: "hist";
+    height: 60%;
+}
+.map{
+    grid-area: "map";
+    height: 94%;
+}
+.local{
+    margin-top: -24.5vh;
+    height: 100px;
+    background-color: #7C1F94;
+    width: 47.1%;
+    color:#FFFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+
+}
+.contatos{
+    margin-top: 14vh;
+    height: 250px;
+    background-color: #7C1F94;
+    width: 100%;
+    color:#FFFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
